@@ -1,0 +1,155 @@
+.hero {
+  .top {
+    background-image: none;
+    height: 492px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+    @media only screen and (max-width: 768px) {
+      // background-image: url('../../assets/images/tap-win/main background - mobile-min.webp');
+      background-size: cover;
+      background-position-y: -26vw;
+      padding-top: 0;
+      height: 178vw;
+      overflow: hidden;
+    }
+
+    .tickets-reset {
+      position: absolute;
+      left: 50%;
+      transform: translateX(-50%);
+      background: rgba(0, 0, 0, 0.5);
+      padding: 4px;
+      border-radius: 4px;
+      min-width: 333px;
+      margin-top: 36vw;
+    }
+
+    .title {
+      display: none !important;
+    }
+  }
+
+  .bottom {
+    background-image: url('../../assets/images/tap-win/main backround - dekstop ( bottom )-min.webp');
+    background-color: rgb(166, 6, 3);
+    height: 207px;
+    background-size: contain;
+    background-repeat: no-repeat;
+
+    @media screen and (max-width: 768px) {
+      height: auto;
+      width: 100%;
+      bottom: -15px;
+    }
+
+    .left-ticket {
+      background: rgb(199, 31, 31);
+    }
+
+    .XiaoSan {
+      background-image: none;
+      background-repeat: no-repeat;
+    }
+
+    .my-ticket {
+      display: none;
+    }
+
+    .arrow-icon {
+      display: none !important;
+    }
+
+    .content {
+      @media screen and (max-width: 768px) {
+        flex-direction: row;
+        justify-content: space-around;
+        width: 100%;
+
+        &::before {
+          content: '';
+          width: 41vw;
+          height: 42vw;
+          background-size: 103%;
+          background-position-y: top;
+          background-image: url('../../assets/images/tap-win/CNY_Pose03\ 2-min.webp');
+          transform: rotate(-12deg);
+        }
+
+        .left {
+          margin-top: 0;
+          margin-left: -20px;
+        }
+      }
+    }
+  }
+
+  .mascot-m {
+    display: none !important;
+  }
+}
+
+.daily-mission-board {
+  .mission-icon {
+    background-image: url(../../assets/images/tap-win/mingcute_board-line-ico.svg);
+  }
+
+  .background {
+    background-image: url(../../assets/images/tap-win/Red-Blur.png);
+  }
+
+  .ticket {
+    background: rgba(120, 33, 46, 1);
+  }
+
+  .ticket-container {
+    .icon {
+      background: linear-gradient(180deg, #FF5959 5.62%, #6A0F11 100%);
+      box-shadow: 0px 3.11783px 26.5016px rgba(0, 0, 0, 0.64);
+
+      &:after {
+        content: '';
+        position: absolute;
+        border-radius: 50%;
+        width: 105px;
+        height: 105px;
+        background-size: 110%;
+        background-image: url('../../assets/images/tap-win/CNY_Pose01 2-min.png');
+
+        @media only screen and (max-width: 576px) {
+          width: 87px;
+          height: 87px;
+        }
+      }
+    }
+
+    .ticket {
+      background: rgba(213, 60, 89, 1);
+    }
+  }
+
+  .ticket-content {
+    background-image: url(../../assets/images/tap-win/bg-ticket-info.webp);
+  }
+}
+
+.winner-container {
+  background: radial-gradient(166.2% 134.68% at 2.13% 0%, #530101 0%, rgba(108, 0, 0, 0.99375) 32.63%, rgba(134, 14, 14, 0.854167) 41.71%, rgba(189, 61, 63, 0) 100%);
+  border-radius: 16px;
+
+  .background {
+    background-image: url(../../assets/images/tap-win/Red-Blur.png);
+  }
+}
+
+.user-icon {
+  background-image: url(../../assets/images/tap-win/user-icon.svg);
+}
+
+.prime-crown {
+  background-image: url(../../assets/images/tap-win/prime_crown_ico.svg);
+  width: 32px;
+  height: 32px;
+  background-position: bottom;
+}
