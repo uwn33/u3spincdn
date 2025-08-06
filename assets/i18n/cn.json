@@ -72,5 +72,5 @@
   "pleaseLoginFirst": "请先登录 <br> 您的账户",
   "ifNoAccPleaseRegister": "如果您还没有帐户, <br> 请注册一个帐户。",
   "register": "注册",
-  "Login": "登入"
+  "login": "登入"
 }

@@ -72,5 +72,5 @@
   "pleaseLoginFirst": "Please Login First <br> to Play Game",
   "ifNoAccPleaseRegister": "If you don't have account, please register for an account.",
   "register": "Register",
-  "Login": "Login"
+  "login": "Login"
 }
