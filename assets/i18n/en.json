@@ -1,8 +1,8 @@
 {
   "spinWinTitle": "Spin Now & Win Up To",
-  "bubble.bronze": "Water Splash",
-  "bubble.silver": "Lucky Soak",
-  "bubble.gold": "Mega Splash",
+  "bubbleText.bronze": "Bronze",
+  "bubbleText.silver": "Silver",
+  "bubbleText.gold": "Gold",
   "titleOctTheme": "Light Up Your Fortune & Win Free Trips!",
   "redeemTickets": "Redeem Tickets!",
   "termsAndConditions": "Terms & Conditions",

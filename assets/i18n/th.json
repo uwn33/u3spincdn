@@ -1,8 +1,8 @@
 {
   "spinWinTitle": "หมุนเลยตอนนี้ ลุ้นรับสูงสุดถึง",
-  "bubble.bronze": "สาดน้ำแบบมันส์ๆ",
-  "bubble.silver": "เปียกรับโชค",
-  "bubble.gold": "สาดน้ำแบบจัดเต็ม",
+  "bubbleText.bronze": "บรอนซ์",
+  "bubbleText.silver": "ซิลเวอร์",
+  "bubbleText.gold": "โกลด์",
   "titleOctTheme": "จุดประกายโชคของคุณ & ลุ้นรับทริปท่องเที่ยวฟรี!",
   "redeemTickets": "แลกรับตั๋ว!",
   "termsAndConditions": "ข้อกำหนดและเงื่อนไข",
